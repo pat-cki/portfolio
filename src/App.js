@@ -5,6 +5,9 @@ import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   return (
@@ -12,6 +15,8 @@ function App() {
       <Navigation/>
       <Header/>
       <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
