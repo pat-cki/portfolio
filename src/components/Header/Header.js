@@ -5,7 +5,7 @@ import * as SC from './header.style';
 const Header = () => {
   return(
     <SC.Header>
-      <header className="aboutme">
+      <header id="aboutme" className="aboutme">
         <h1>Pat Cichocki</h1>
         <h2>Full stack developer, designer, lifelong learner, cat lover, <a
             href="https://www.foundersandcoders.com/" target="_blank">Founders & Coders</a> graduate. </h2>

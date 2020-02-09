@@ -1,5 +1,5 @@
 import React from 'react';
-import './cssreset.css'
+import './Cssreset.css'
 import './App.css';
 import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';

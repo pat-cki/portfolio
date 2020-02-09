@@ -4,7 +4,7 @@ import * as SC from './contact.style';
 const Contact = () => {
   return (
     <SC.Contact>
-      <section className="contact main">
+      <section id="contact" className="contact main">
         <h3>Contact</h3>
         <p className="contact-paragraph">If you have any question or comment, please fell free to drop me a line or give me a call</p>
         <ul className="links">

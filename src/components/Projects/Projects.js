@@ -4,7 +4,7 @@ import * as SC from './projects.style';
 const Projects = () => {
   return(
     <SC.Projects>
-      <section className="projects main">
+      <section id="projects" className="projects main">
         <h3>Some of my projects:</h3>
         <div className="row">
           

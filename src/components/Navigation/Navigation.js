@@ -6,10 +6,10 @@ const Navigation = () => {
   <SC.Navigation>
     <nav className="navigation">
         <ul className="nav">
-            <li><a className="nav-aboutme" href="#">About</a> </li>
-            <li><a className="nav-projects" href="#">Projects</a></li>
-            <li><a className="nav-stack" href="#">Stack</a></li>
-            <li><a className="nav-contact" href="#">Contact</a></li>
+            <li><a className="nav-aboutme" href="#aboutme">About</a> </li>
+            <li><a className="nav-projects" href="#projects">Projects</a></li>
+            <li><a className="nav-stack" href="#stack">Stack</a></li>
+            <li><a className="nav-contact" href="#contact">Contact</a></li>
         </ul> 
     </nav>
   </SC.Navigation>
