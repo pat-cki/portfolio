@@ -6,10 +6,16 @@
   --transition: 0.2s all ease-in-out;
 }
 
+
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-color: var(--main-bg-color);
+}
+
 .App {
   font-family: 'Roboto Mono', monospace;
   background-color: var(--main-bg-color);
-
   max-width: 1200px;
   margin: auto;
   padding: 1.5em 1.5em 0 1.5em;
@@ -49,13 +55,6 @@ h2,
 h3 {
   color: var(--headline-color);
   font-family: 'Roboto Mono', monospace;
-}
-
-h1 {
-  font-size: 3em;
-  font-weight: 700;
-  margin-bottom: .2em;
-  margin-top: 2em;
 }
 
 h2 {

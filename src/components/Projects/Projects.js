@@ -1,8 +1,9 @@
 import React from 'react';
+import * as SC from './projects.style';
 
 const Projects = () => {
   return(
-    <React.Fragment>
+    <SC.Projects>
       <section className="projects main">
         <h3>Some of my projects:</h3>
         <div className="row">
@@ -60,7 +61,7 @@ const Projects = () => {
 
 
   </section>
-    </React.Fragment>
+    </SC.Projects>
   );
 };
 
