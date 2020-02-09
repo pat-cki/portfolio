@@ -1,3 +1,9 @@
+Pat Cichocki - portfolio
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ea2d732-399f-4e6d-a730-64640a54b350/deploy-status)](https://app.netlify.com/sites/pat-cichocki/deploys)
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
