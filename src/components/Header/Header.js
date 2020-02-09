@@ -9,7 +9,7 @@ const Header = () => {
         <h2>Full stack developer, designer, lifelong learner, cat lover, <a
             href="https://www.foundersandcoders.com/" target="_blank">Founders & Coders</a> graduate. </h2>
         </header>
-        <section class="intro main">
+        <section className="intro main">
         <p className="intro-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dolor. Corporis in, aspernatur dolor
         facilis beatae ea numquam cupiditate vero ducimus harum quas? Quam consequatur illum fugit, nesciunt eos
         voluptatem.

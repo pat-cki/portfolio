@@ -1,7 +1,19 @@
+:root {
+  --main-bg-color: #f7f7f7;
+  --headline-color: #740499;
+  --shadow-color: #9d81a7;
+  --footer-background: #c8bdcb;
+  --transition: 0.2s all ease-in-out;
+}
+
 .App {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
-  margin: 2em;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1.5em 1.5em 0 1.5em;
+  display: flex;
+  flex-direction: column;
 
 }
 
@@ -30,6 +42,31 @@
 .App-link {
   color: #61dafb;
 }
+
+h1,
+h2,
+h3 {
+  color: var(--headline-color);
+  font-family: 'Roboto Mono', monospace;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: .2em;
+  margin-top: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  line-height: 1.6em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
 
 @keyframes App-logo-spin {
   from {

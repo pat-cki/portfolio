@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <React.Fragment>
       <footer>
-        <p class="footer-paragraph">Pat Cichocki &#169; 2020</p>
+        <p className="footer-paragraph">Pat Cichocki &#169; 2020</p>
       </footer>
     </React.Fragment>
   );
