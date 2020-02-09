@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-const Nav = styled.section`
+const Navigation = styled.section`
 
   ul.nav {
     display: flex;
@@ -27,4 +27,4 @@ const Nav = styled.section`
   }
 `
 
-export default Nav;
+export { Navigation };

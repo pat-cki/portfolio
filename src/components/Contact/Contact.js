@@ -1,9 +1,9 @@
 import React from 'react';
-import './contact.css';
+import * as SC from './contact.style';
 
 const Contact = () => {
   return (
-    <React.Fragment>
+    <SC.Contact>
       <section className="contact main">
         <h3>Contact</h3>
         <ul className="links">
@@ -13,7 +13,7 @@ const Contact = () => {
             <li><a href="mailto:pat.cichocki@gmail.com">Mail</a></li>
         </ul>
       </section>
-    </React.Fragment>
+    </SC.Contact>
   );
 };
 

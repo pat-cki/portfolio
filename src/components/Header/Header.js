@@ -1,9 +1,10 @@
 import React from 'react';
-import './header.css';
+import * as SC from './header.style';
+
 
 const Header = () => {
   return(
-    <React.Fragment>
+    <SC.Header>
       <header className="aboutme">
         <h1>Pat Cichocki</h1>
         <h2>Full stack developer, designer, lifelong learner, cat lover, <a
@@ -20,7 +21,7 @@ const Header = () => {
         voluptatem.
         </p>
         </section>
-    </React.Fragment>
+    </SC.Header>
   );
 };
 

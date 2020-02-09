@@ -1,13 +1,14 @@
 import React from 'react';
-import './footer.css';
+import * as SC from './footer.style';
+
 
 const Footer = () => {
   return (
-    <React.Fragment>
+    <SC.Footer>
       <footer>
         <p className="footer-paragraph">Pat Cichocki &#169; 2020</p>
       </footer>
-    </React.Fragment>
+    </SC.Footer>
   );
 };
 

@@ -1,9 +1,9 @@
 import React from 'react';
-import Nav from './navigation.style';
+import * as SC from './navigation.style';
 
 const Navigation = () => {
   return (
-    <Nav>
+  <SC.Navigation>
     <nav className="navigation">
         <ul className="nav">
             <li><a className="nav-aboutme" href="#">About</a> </li>
@@ -11,7 +11,7 @@ const Navigation = () => {
             <li><a className="nav-contact" href="#">Contact</a></li>
         </ul> 
     </nav>
-    </Nav>
+  </SC.Navigation>
   );
 };
 
