@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const Header = styled.section`
+  margin-top: 5em;
   margin-bottom: 5em;
-  
+
   h1 {
     font-size: 3em;
     font-weight: 700;

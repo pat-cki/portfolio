@@ -15,7 +15,7 @@ const Header = () => {
 
         </p>
         <p className="intro-paragraph">
-        I am passionate about integrating technologies to solve problems, optimising existing solutions and building engaging products with lasting value. I enjoy exploring new ideas, learning new technologies and always strive for improvement. 
+        I am passionate about integrating technologies to solve problems, optimising existing solutions and building engaging products with lasting value. I enjoy exploring new ideas, learning new skills and always strive for improvement. 
 
         </p>
         </section>

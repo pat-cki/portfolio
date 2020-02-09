@@ -16,12 +16,14 @@ body {
 .App {
   font-family: 'Roboto Mono', monospace;
   background-color: var(--main-bg-color);
+}
+
+.container {
   max-width: 1200px;
   margin: auto;
   padding: 1.5em 1.5em 0 1.5em;
   display: flex;
   flex-direction: column;
-
 }
 
 .App-logo {

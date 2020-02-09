@@ -6,6 +6,7 @@ const Contact = () => {
     <SC.Contact>
       <section className="contact main">
         <h3>Contact</h3>
+        <p className="contact-paragraph">If you have any question or comment, please fell free to drop me a line or give me a call</p>
         <ul className="links">
             <li><a target="_blank" href="https://github.com/pat-cki">Github</a></li>
             <li><a target="_blank" href="https://www.linkedin.com/in/pat-cichocki-738b336a/">Linkedin</a></li>

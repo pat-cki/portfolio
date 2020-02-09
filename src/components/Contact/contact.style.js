@@ -21,5 +21,9 @@ const Contact = styled.section`
       color: var(--headline-color);
       font-weight: 700;
   }
+  .contact-paragraph {
+    margin-top: 1em;
+    line-height: 2em;
+  }
 `
 export { Contact };

@@ -39,5 +39,28 @@ const Projects = styled.section`
       margin-top: 1.2em;
   }
 
+
+  @media only screen and (min-width: 768px) {
+    
+
+    .row {
+        flex-direction: row;
+    }
+
+    .row .project {
+        min-width: 50%;
+    }
+
+    .row :first-child {
+        margin-right: 1em;
+    }
+
+    .project {
+        padding: 3em;
+    }
+}
+
+
+
 `
 export { Projects };
