@@ -3,6 +3,9 @@ import styled from 'styled-components';
 const Projects = styled.section`
   margin-bottom: 5em;
 
+  .projects-header {
+      display: flex;
+  }
   .projects {
     display: flex;
     flex-direction: column;

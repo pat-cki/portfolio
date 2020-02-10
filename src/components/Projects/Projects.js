@@ -1,11 +1,13 @@
 import React from 'react';
 import * as SC from './projects.style';
+import contact from "../../svgs/icons/contact.svg";
 
-const Projects = () => {
+
+const Projects = (contact) => {
   return(
     <SC.Projects>
       <section id="projects" className="projects main">
-        <h3>Some of my projects:</h3>
+        <h3 className="section_header"> Some of my projects:</h3>
         <div className="row">
           
           <div className="project">
