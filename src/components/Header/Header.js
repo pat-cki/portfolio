@@ -11,7 +11,7 @@ const Header = () => {
             href="https://www.foundersandcoders.com/" target="_blank">Founders & Coders</a> graduate. </h2>
         </header>
         <section className="intro main">
-        <p className="intro-paragraph">I am a full stack JS developer with background in UX/UI design (almost ten years of experience). For the last 4 months I honed my development skills at Founders and Coders, a highly selective coding bootcamp in London. I am now looking for new challenges, where I could contribute my knowledge and experience, and at the same time enhance my coding skills. 
+        <p className="intro-paragraph">I am a full stack JS developer with background in UX/UI design. For the last 4 months I honed my development skills at Founders and Coders, a highly selective coding bootcamp in London. I am now looking for new challenges, where I could contribute my knowledge and experience, and at the same time enhance my coding skills. 
 
         </p>
         <p className="intro-paragraph">
