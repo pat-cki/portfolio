@@ -3,9 +3,24 @@ import styled from 'styled-components';
 const Projects = styled.section`
   margin-bottom: 5em;
 
-  .projects-header {
+  /* .projects-header {
       display: flex;
+      position: relative;
+      z-index: 1;
   }
+
+  .projects-header::before {
+  background-color: #fc0;
+  clip-path: polygon(100% 0px, 0% 100%, 100% 100%);
+  width: 60px;
+  height: 60px;
+  left: -35px;
+  content: '';
+  position: absolute;
+  top: -13px;
+  z-index: -1;
+} */
+
   .projects {
     display: flex;
     flex-direction: column;

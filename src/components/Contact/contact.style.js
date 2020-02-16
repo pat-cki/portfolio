@@ -3,9 +3,7 @@ import styled from 'styled-components';
 
 const Contact = styled.section`
 
-  .header_container {
-    display: flex;
-  }
+  
   ul.links {
     display: flex;
     flex-direction: column;

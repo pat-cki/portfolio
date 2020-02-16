@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <SC.Contact>
       <section id="contact" className="contact main">
-        <div className="header_container">
+        <div className="section-header">
           <Contact_icon icon={contact_icon} />
           <h3>Contact</h3>
         </div>

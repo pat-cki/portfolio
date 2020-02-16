@@ -8,10 +8,10 @@ const Projects = () => {
   return(
     <SC.Projects>
       <section id="projects" className="projects main">
-          <div className="projects-header">
+          <div className="section-header ">
             <Projects_icon icon={projects_icon}/>
-            <h3 className="section_header"> Some of my projects:</h3>
-        </div>
+            <h3> Some of my projects:</h3>
+           </div>
         <div className="row">
           
           <div className="project">
