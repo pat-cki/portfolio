@@ -88,7 +88,13 @@ h3 {
   z-index: -1;
 }
 
+.flex-container {
+  display: flex;
+}
 
+.first_column {
+  width: 50%;
+}
 
 
 @keyframes App-logo-spin {

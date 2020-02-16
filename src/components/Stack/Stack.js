@@ -31,7 +31,7 @@ const Stack = () => {
       <section id="stack" className="stack main">
         <div className= "section-header">
           <Stack_icon icon={stack_icon} />
-          <h3>Stack</h3>
+          <h3>Stack:</h3>
         </div>
         <p className="contact-paragraph">Technologies I use:</p>
         <ul className="stack_list">
