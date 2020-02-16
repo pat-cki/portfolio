@@ -3,23 +3,7 @@ import styled from 'styled-components';
 const Projects = styled.section`
   margin-bottom: 5em;
 
-  /* .projects-header {
-      display: flex;
-      position: relative;
-      z-index: 1;
-  }
 
-  .projects-header::before {
-  background-color: #fc0;
-  clip-path: polygon(100% 0px, 0% 100%, 100% 100%);
-  width: 60px;
-  height: 60px;
-  left: -35px;
-  content: '';
-  position: absolute;
-  top: -13px;
-  z-index: -1;
-} */
 
   .projects {
     display: flex;
@@ -57,24 +41,23 @@ const Projects = styled.section`
       margin-top: 1.2em;
   }
 
+  .stack {
+      margin-top: 0.75em;
+      font-size: 0.9em;
+      font-weight: 700;
+  }
+
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
 
   @media only screen and (min-width: 768px) {
     
 
-    .row {
-        flex-direction: row;
-    }
-
-    .row .project {
-        min-width: 50%;
-    }
-
-    .row :first-child {
-        margin-right: 1em;
-    }
-
-    .project {
-        padding: 3em;
+    .projects-list {
+        grid-template-columns: 1fr 1fr;
     }
 }
 
