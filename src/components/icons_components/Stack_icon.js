@@ -3,10 +3,10 @@ import * as SC from './icon.style';
 
 
 
-const Contact_icon = props => (
+const Stack_icon = props => (
   <SC.icon>
     <img src={props.icon} alt="" />
   </SC.icon>
 );
 
-export default Contact_icon;
+export default Stack_icon;

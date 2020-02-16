@@ -1,13 +1,17 @@
 import React from 'react';
 import * as SC from './projects.style';
-import contact from "../../svgs/icons/contact.svg";
+import projects_icon from '../../svgs/icons/fac.svg';
+import Projects_icon from '../icons_components/Contact_icon';
 
 
-const Projects = (contact) => {
+const Projects = () => {
   return(
     <SC.Projects>
       <section id="projects" className="projects main">
-        <h3 className="section_header"> Some of my projects:</h3>
+          <div className="projects-header">
+            <Projects_icon icon={projects_icon}/>
+            <h3 className="section_header"> Some of my projects:</h3>
+        </div>
         <div className="row">
           
           <div className="project">
