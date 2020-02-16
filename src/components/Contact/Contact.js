@@ -15,7 +15,6 @@ const Contact = () => {
         <p className="contact-paragraph">If you have any question or comment, please fell free to drop me a line or give me a call</p>
         <ul className="links">
             <li><a target="_blank" href="https://github.com/pat-cki">Github</a></li>
-            <li><a target="_blank" href="https://www.linkedin.com/in/pat-cichocki-738b336a/">Linkedin</a></li>
             <li><a target="_blank" href="https://twitter.com/velvet_violence">Twitter</a></ li>
             <li><a href="mailto:pat.cichocki@gmail.com">Mail</a></li>
         </ul>
