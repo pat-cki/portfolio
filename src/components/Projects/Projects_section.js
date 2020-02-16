@@ -10,8 +10,8 @@ const Projects_section = () => {
           <p className="stack">stack used: {project.stack}</p>
           <section className="project-links">
               <ul className="links-list">
-                  <li className="project-link"><a href={project.repo_url}>Github Repo</a></li>
-                  <li className="project-link"><a href={project.live_url}>Live Version</a></li>
+                  <li className="project-link"><a href={project.repo_url} target="_blank">Github Repo</a></li>
+                  <li className="project-link"><a href={project.live_url} target="_blank">Live Version</a></li>
               </ul>
           </section>
       </div>

@@ -6,7 +6,10 @@
   --transition: 0.2s all ease-in-out;
 }
 
+html {
+  scroll-behavior: smooth;
 
+}
 
 body {
   font-family: 'Roboto Mono', monospace;
