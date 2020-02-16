@@ -3,6 +3,7 @@ import * as SC from './icon.style';
 
 
 
+
 const Projects_icon = props => (
   <SC.icon>
     <img src={props.icon} alt="" />
