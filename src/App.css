@@ -69,6 +69,27 @@ h3 {
   font-size: 1.8em;
 }
 
+.section-header {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 1em;
+}
+
+.section-header::before {
+  background-color: #fc0;
+  clip-path: polygon(100% 0px, 0% 100%, 100% 100%);
+  width: 60px;
+  height: 60px;
+  left: -35px;
+  content: '';
+  position: absolute;
+  top: -13px;
+  z-index: -1;
+}
+
+
+
 
 @keyframes App-logo-spin {
   from {

@@ -29,7 +29,7 @@ const Stack = () => {
   return (
     <SC.Stack>
       <section id="stack" className="stack main">
-        <div className= "stack_header">
+        <div className= "section-header">
           <Stack_icon icon={stack_icon} />
           <h3>Stack</h3>
         </div>
