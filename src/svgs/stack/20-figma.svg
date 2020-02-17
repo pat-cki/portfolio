@@ -3,9 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1667 2500" style="enable-background:new 0 0 1667 2500;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#A95CF2;}
-	.st1{fill:#A540F4;}
-	.st2{fill:#9F16F7;}
+	.st0{fill:#8C0CC1;}
+	.st1{fill:#740499;}
 </style>
 <title>Figma.logo</title>
 <desc>Created using Figma</desc>
@@ -13,9 +12,9 @@
 	S412.7,1782,562.3,1782z"/>
 <path id="path1_fill" class="st1" d="M291.2,968.5c0-149.7,121.5-271.2,271.2-271.2h271.2v542.3H562.3
 	C412.7,1239.7,291.2,1118.2,291.2,968.5z"/>
-<path id="path1_fill_1_" class="st2" d="M291.2,426.2c0-149.7,121.5-271.2,271.2-271.2h271.2v542.3H562.3
+<path id="path1_fill_1_" class="st0" d="M291.2,426.2c0-149.7,121.5-271.2,271.2-271.2h271.2v542.3H562.3
 	C412.7,697.4,291.2,575.9,291.2,426.2z"/>
 <path id="path2_fill" class="st1" d="M833.5,155h271.2c149.7,0,271.2,121.5,271.2,271.2s-121.5,271.2-271.2,271.2H833.5V155z"/>
-<path id="path3_fill" class="st2" d="M1375.8,968.5c0,149.7-121.5,271.2-271.2,271.2s-271.2-121.5-271.2-271.2
+<path id="path3_fill" class="st0" d="M1375.8,968.5c0,149.7-121.5,271.2-271.2,271.2s-271.2-121.5-271.2-271.2
 	S955,697.4,1104.7,697.4S1375.8,818.8,1375.8,968.5z"/>
 </svg>
