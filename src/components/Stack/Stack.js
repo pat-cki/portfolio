@@ -21,6 +21,8 @@ import { ReactComponent as Travis } from "../../svgs/stack/15-travis.svg";
 import { ReactComponent as Illustrator } from "../../svgs/stack/16-illustrator.svg";
 import { ReactComponent as PS } from "../../svgs/stack/17-ps.svg";
 import { ReactComponent as Sketch } from "../../svgs/stack/18-sketch.svg";
+import { ReactComponent as Netlify } from "../../svgs/stack/19-netlify.svg";
+
 
 
 
@@ -51,6 +53,7 @@ const Stack = () => {
             <li className="stack_element"><Postgresql/></li>
             <li className="stack_element"><Npm/></li>
             <li className="stack_element"><Travis/></li>
+            <li className="stack_element"><Netlify/></li>
             <li className="stack_element"><Illustrator/></li>
             <li className="stack_element"><PS/></li>
             <li className="stack_element"><Sketch/></li>
