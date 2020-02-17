@@ -22,6 +22,7 @@ import { ReactComponent as Illustrator } from "../../svgs/stack/16-illustrator.s
 import { ReactComponent as PS } from "../../svgs/stack/17-ps.svg";
 import { ReactComponent as Sketch } from "../../svgs/stack/18-sketch.svg";
 import { ReactComponent as Netlify } from "../../svgs/stack/19-netlify.svg";
+import { ReactComponent as Figma } from "../../svgs/stack/20-figma.svg";
 
 
 
@@ -56,7 +57,7 @@ const Stack = () => {
             <li className="stack_element"><Netlify/></li>
             <li className="stack_element"><Illustrator/></li>
             <li className="stack_element"><PS/></li>
-            <li className="stack_element"><Sketch/></li>
+            <li className="stack_element"><Figma/></li>
         </ul>
       </section>
     </SC.Stack>
