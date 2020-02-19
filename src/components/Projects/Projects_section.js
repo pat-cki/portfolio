@@ -4,7 +4,7 @@ import projects from "../../utils/projects.js";
 const Projects_section = () => {
   return projects.map(project => {
     return (
-      <div className="project">
+      <div className="project" key={project.id}>
           <h4 className="project-title">{project.name}</h4>
           <p className="project-description">{project.description}</p>
           <p className="stack">stack used: {project.stack}</p>
